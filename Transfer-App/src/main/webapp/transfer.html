@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="containerss">
+    
+<div class="title">TRANSACTION -WEB-APP</div>
+    <form action="transfer" class ="forms" method="POST">
+     <p> Enter The Details </p>
+        <label for="from"> From Account</label>
+        <input type="number" name="from" id="from">
+        <label for="to">To Account</label>
+        <input type="number"  name="to" id="to">
+        <label for="amount">Amount</label>
+        <input type="number"  name="amount" id="amount">
+        <button type="submit" >Submit</button>
+    </form>
+    <script>
+     function myFunction() {
+        // Get the value of the input field with id="numb"
+        let x = document.getElementById("numb").value;
+        // If x is Not a Number or less than one or greater than 10
+        let text;
+        if (isNaN(x) || x < 1 || x > 10) {
+          return false;
+        } else {
+          return true;
+        }}
+</script>
+   
+    
+        
+</body>
+</html>
